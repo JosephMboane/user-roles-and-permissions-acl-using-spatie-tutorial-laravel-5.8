@@ -5,10 +5,10 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Add New Product</h2>
+                <h2>Adicionar Processo</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
+                <a style="background-color: #87EFFE; color: black" class="btn btn-primary" href="{{ route('products.index') }}"> Votar</a>
             </div>
         </div>
     </div>
@@ -16,7 +16,7 @@
 
     @if ($errors->any())
         <div class="alert alert-danger">
-            <strong>Whoops!</strong> There were some problems with your input.<br><br>
+            <strong>Erro!</strong> Existem campos que não foram preenchidos.<br><br>
             <ul>
                 @foreach ($errors->all() as $error)
                     <li>{{ $error }}</li>
@@ -33,23 +33,23 @@
          <div class="row">
 		    <div class="col-xs-12 col-sm-12 col-md-12">
 		        <div class="form-group">
-		            <strong>Name:</strong>
-		            <input type="text" name="name" class="form-control" placeholder="Name">
+		            <strong>Tipo de Processo:</strong>
+		            <input type="text" name="name" class="form-control" placeholder="Tipo do Processo">
 		        </div>
 		    </div>
 		    <div class="col-xs-12 col-sm-12 col-md-12">
 		        <div class="form-group">
-		            <strong>Detail:</strong>
-		            <textarea class="form-control" style="height:150px" name="detail" placeholder="Detail"></textarea>
+		            <strong>Detalhes :</strong>
+		            <textarea class="form-control" style="height:150px" name="detail" placeholder="Detalhes do Processo"></textarea>
 		        </div>
 		    </div>
 		    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-		            <button type="submit" class="btn btn-primary">Submit</button>
+		            <button type="submit" style="background-color: #87EFFE; color: black" class="btn btn-primary">Gravar</button>
 		    </div>
 		</div>
 
 
     </form>
 
-<p class="text-center text-primary"><small>Tutorial by ItSolutionStuff.com</small></p>
+{{--<p class="text-center text-primary"><small>Tutorial by ItSolutionStuff.com</small></p>--}}
 @endsection

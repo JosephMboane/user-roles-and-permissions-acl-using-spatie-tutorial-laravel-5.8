@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Edit Product</h2>
+                <h2>Editar Processo</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
@@ -52,5 +52,5 @@
 
     </form>
 
-<p class="text-center text-primary"><small>Tutorial by ItSolutionStuff.com</small></p>
+{{--<p class="text-center text-primary"><small>Tutorial by ItSolutionStuff.com</small></p>--}}
 @endsection

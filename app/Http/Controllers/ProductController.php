@@ -64,7 +64,7 @@ class ProductController extends Controller
 
 
         return redirect()->route('products.index')
-                        ->with('success','Product created successfully.');
+                        ->with('success','Processo adicionado com sucesso!');
     }
 
 
@@ -111,7 +111,7 @@ class ProductController extends Controller
 
 
         return redirect()->route('products.index')
-                        ->with('success','Product updated successfully');
+                        ->with('success','Processo actualizado com sucesso!');
     }
 
 
@@ -127,6 +127,6 @@ class ProductController extends Controller
 
 
         return redirect()->route('products.index')
-                        ->with('success','Product deleted successfully');
+                        ->with('success','Processo eliminado com sucesso!');
     }
 }

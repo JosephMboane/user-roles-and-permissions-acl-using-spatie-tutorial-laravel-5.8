@@ -5,7 +5,7 @@
 <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left">
-            <h2>Create New User</h2>
+            <h2>Criar Novo Utilizador</h2>
         </div>
         <div class="pull-right">
             <a class="btn btn-primary" href="{{ route('users.index') }}"> Back</a>
@@ -31,7 +31,7 @@
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
-            <strong>Name:</strong>
+            <strong>Nome:</strong>
             {!! Form::text('name', null, array('placeholder' => 'Name','class' => 'form-control')) !!}
         </div>
     </div>
@@ -43,13 +43,13 @@
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
-            <strong>Password:</strong>
+            <strong>Senha:</strong>
             {!! Form::password('password', array('placeholder' => 'Password','class' => 'form-control')) !!}
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
-            <strong>Confirm Password:</strong>
+            <strong>Confirme a Senha:</strong>
             {!! Form::password('confirm-password', array('placeholder' => 'Confirm Password','class' => 'form-control')) !!}
         </div>
     </div>
@@ -60,10 +60,10 @@
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Adicionar</button>
     </div>
 </div>
 {!! Form::close() !!}
 
-<p class="text-center text-primary"><small>Tutorial by ItSolutionStuff.com</small></p>
+{{--<p class="text-center text-primary"><small>Tutorial by ItSolutionStuff.com</small></p>--}}
 @endsection
