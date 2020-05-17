@@ -7,7 +7,9 @@
                 <div class="card">
                     <div class="card-header text-center">
                         {{--                    {{ __('Login') }}--}}
-                        <img src="<?php echo asset('unnamed.png')?>" alt="Card image cap" style="width: 50px;">
+                        <a class="navbar-brand" href="{{ url('/') }}">
+                            <img src="<?php echo asset('unnamed.png')?>" alt="Card image cap" style="width: 50px">
+                        </a>
                     </div>
 
                     <div class="card-body">

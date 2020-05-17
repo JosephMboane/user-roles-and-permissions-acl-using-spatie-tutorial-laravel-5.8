@@ -25,15 +25,15 @@
 
     <table class="table table-bordered">
         <tr>
-{{--            <th>Codigo</th>--}}
-            <th>Codigo</th>
-            <th>Tipo</th>
+{{--            <th>N</th>--}}
+            <th>N° de Processo</th>
+            <th>Tipo Legal de Crime</th>
             <th>Detalhes</th>
-            <th width="280px">Accoes</th>
+            <th width="280px">Acções</th>
         </tr>
 	    @foreach ($products as $product)
 	    <tr>
-{{--	        <td>{{ ++$i }}-10-D/2020</td>--}}
+{{--	        <td>{{ ++$i }}</td>--}}
 	        <td>{{ $product->id }}-10-D/2020</td>
 	        <td>{{ $product->name }}</td>
 	        <td>{{ $product->detail }}</td>

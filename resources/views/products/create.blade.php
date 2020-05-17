@@ -33,8 +33,8 @@
          <div class="row">
 		    <div class="col-xs-12 col-sm-12 col-md-12">
 		        <div class="form-group">
-		            <strong>Tipo de Processo:</strong>
-		            <input type="text" name="name" class="form-control" placeholder="Tipo do Processo">
+		            <strong>Tipo Legal de Crime:</strong>
+		            <input type="text" name="name" class="form-control" placeholder="Tipo Legal de Crime">
 		        </div>
 		    </div>
 		    <div class="col-xs-12 col-sm-12 col-md-12">

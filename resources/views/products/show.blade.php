@@ -8,23 +8,29 @@
                 <h2> Mostrar Processo</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
+                <a  style="background-color: #87EFFE; color: black" class="btn btn-primary" href="{{ route('products.index') }}"> Voltar</a>
             </div>
         </div>
     </div>
 
 
-    <div class="row">
+    <div class="row mt-5">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Name:</strong>
+                <strong>Nome:</strong>
                 {{ $product->name }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Details:</strong>
+                <strong>Detalhes:</strong>
                 {{ $product->detail }}
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Feito em :</strong>
+                {{ $product->created_at }}
             </div>
         </div>
     </div>

@@ -72,6 +72,8 @@
                 <div class="title m-b-md">
                     SERNIC
                 </div>
+               <strong> <p>SERVIÇO NACIONAL DE INVESTIGAÇÃO CRIMINAL</p></strong>
+                <p style="color: black">DIRECÇÃO DA PROVÍNCIA DE MAPUTO</p>
 
 {{--                <div class="links">--}}
 {{--                    <a href="https://laravel.com/docs">Docs</a>--}}

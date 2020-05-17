@@ -38,8 +38,8 @@
                         <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
 {{--                        <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>--}}
                     @else
-                        <li><a class="nav-link" href="{{ route('users.index') }}">Gestão de Utilizadores (Esquadras)</a></li>
-                        <li><a class="nav-link" href="{{ route('roles.index') }}">Gestão Role</a></li>
+                        <li><a class="nav-link" href="{{ route('users.index') }}">Gestão de Utilizadores (Brigadas)</a></li>
+                        <li><a class="nav-link" href="{{ route('roles.index') }}">Gestão Funções</a></li>
                         <li><a class="nav-link" href="{{ route('products.index') }}">Gestão Processos</a></li>
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
